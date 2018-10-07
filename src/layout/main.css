@@ -1,0 +1,248 @@
+/*Mobile first is not compatible with IE or any old browsers. IE 8 or older does not support media queries either*/
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
+}
+
+html,
+body,
+ul,
+ol,
+li,
+img,
+h1,
+a,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.base-container {
+  padding: 10px;
+  margin: 5px;
+}
+
+.row {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.column {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  background-clip: content-box;
+}
+
+/* .colOne,
+.colTwo,
+.colThree,
+.colFour,
+.colFive,
+.colSix,
+.colSeven,
+.colSeven,
+.colEight,
+.colNine,
+.colTen,
+.col-1-3,
+.col-2-3,
+.col-1-4,
+.col-3-4 {
+  width: 100%;
+  background-color: #48c5b2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  background-clip: content-box;
+} */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+ol,
+ul {
+  padding: 20px 10px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+/*------------------------------------------------------*/
+.base-wrapper {
+  min-height: 100%;
+}
+
+.base-nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+ul.base-tabs {
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+li.base-tab {
+  display: block;
+  margin: 1%;
+  padding: 1%;
+  width: 98%;
+  border-radius: 5px;
+}
+
+a.base-navLink {
+  font-weight: bold;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.com-tag {
+  display: none;
+}
+
+.com-tag.active {
+  display: block;
+}
+
+.base-tabs .tab-active {
+  text-transform: uppercase;
+  /* background-color: #48c5b2; */
+}
+
+.base-container {
+  top: 100px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.imgResponsive li {
+  list-style: none;
+}
+
+.base-footer {
+  text-align: center;
+  /* background: #1e1e1e; */
+  /* color: white; */
+  width: 100%;
+  padding: 5px;
+  /* position: fixed; */
+  bottom: 0;
+}
+
+/*-----------------------------------------------------------*/
+@media only screen and (min-width: 600px) {
+
+  .colOne,
+  .colTwo,
+  .colThree,
+  .colFour,
+  .colFive,
+  .colSix,
+  .col-1-3,
+  .col-2-3,
+  .col-1-4 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 866px) {
+  .colOne {
+    width: 10%;
+  }
+
+  .colTwo {
+    width: 20%;
+  }
+
+  .colThree {
+    width: 30%;
+  }
+
+  .colFour {
+    width: 40%;
+  }
+
+  .colFive {
+    width: 50%;
+  }
+
+  .colSix {
+    width: 60%;
+  }
+
+  .colSeven {
+    width: 70%;
+  }
+
+  .colEight {
+    width: 80%;
+  }
+
+  .colNine {
+    width: 90%;
+  }
+
+  .colTen {
+    width: 100%;
+  }
+
+  .col-1-3 {
+    width: 33.3%;
+  }
+
+  .col-2-3 {
+    width: 66.7%;
+  }
+
+  .col-1-4 {
+    width: 25%;
+  }
+
+  .col-1-2 {
+    width: 50%;
+  }
+
+  .col-3-4 {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  ul.base-tabs {
+    display: block;
+  }
+
+  li.base-tab {
+    display: inline;
+  }
+
+  .base-container {
+    margin: 10px 30px 50px;
+    top: 50px;
+  }
+
+  .row {
+    display: flex;
+  }
+}
