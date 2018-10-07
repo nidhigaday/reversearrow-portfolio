@@ -53,6 +53,7 @@ export const Header = ({
 }) => {
   return <React.Fragment>{title && <h1>{children}</h1>}</React.Fragment>;
 };
+
 export const Footer = ({ classes, children }) => {
   return <div className={classNames("footer", ...classes)}>{children}</div>;
 };
