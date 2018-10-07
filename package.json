@@ -29,6 +29,11 @@
     "singleQuote": true
   },
   "eslintConfig": {
+    "compilerOptions": {
+      "target": "es5",
+      "jsx": "react",
+      "target": "es2016"
+    },
     "extends": "react-app"
   },
   "browserslist": [
@@ -36,5 +41,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-plugin-react": "^7.11.1"
+  }
 }
