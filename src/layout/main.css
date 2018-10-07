@@ -1,7 +1,12 @@
 /*Mobile first is not compatible with IE or any old browsers. IE 8 or older does not support media queries either*/
 * {
   box-sizing: border-box;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
 }
 
 html,
