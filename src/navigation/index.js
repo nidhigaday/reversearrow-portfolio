@@ -14,10 +14,12 @@ const navigation = [
 
 const Navigation = () => {
   return (
-    <Layout.Navigation classes="root">
+    <Layout.Navigation>
       <Layout.Tabs>
         {navigation.map(({ label, url }) => (
-          <Layout.Tab url={url}>{label}</Layout.Tab>
+          <Layout.Tab linkClass="link" tabClass="tab" url={url}>
+            {label}
+          </Layout.Tab>
         ))}
       </Layout.Tabs>
     </Layout.Navigation>
