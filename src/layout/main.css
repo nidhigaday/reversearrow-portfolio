@@ -17,7 +17,7 @@ p {
   margin: 0px;
 }
 
-.container {
+.base-container {
   padding: 10px;
   margin: 5px;
 }
@@ -80,12 +80,11 @@ h1 {
 }
 
 /*------------------------------------------------------*/
-.wrapper {
+.base-wrapper {
   min-height: 100%;
 }
 
-.nav {
-  position: fixed;
+.base-nav {
   top: 0;
   left: 0;
   right: 0;
@@ -93,13 +92,13 @@ h1 {
   z-index: 1;
 }
 
-ul.tabs {
+ul.base-tabs {
   list-style: none;
   display: block;
   text-align: center;
 }
 
-li.tab {
+li.base-tab {
   display: block;
   margin: 1%;
   padding: 1%;
@@ -107,7 +106,7 @@ li.tab {
   border-radius: 5px;
 }
 
-a.navLink {
+a.base-navLink {
   font-weight: bold;
   font-size: 20px;
   vertical-align: middle;
@@ -121,12 +120,12 @@ a.navLink {
   display: block;
 }
 
-.tabs .tab-active {
+.base-tabs .tab-active {
   text-transform: uppercase;
   /* background-color: #48c5b2; */
 }
 
-.container {
+.base-container {
   top: 100px;
   position: relative;
   margin-bottom: 30px;
@@ -136,7 +135,7 @@ a.navLink {
   list-style: none;
 }
 
-.footer {
+.base-footer {
   text-align: center;
   /* background: #1e1e1e; */
   /* color: white; */
@@ -225,15 +224,15 @@ a.navLink {
 }
 
 @media only screen and (min-width: 600px) {
-  ul.tabs {
+  ul.base-tabs {
     display: block;
   }
 
-  li.tab {
+  li.base-tab {
     display: inline;
   }
 
-  .container {
+  .base-container {
     margin: 10px 30px 50px;
     top: 50px;
   }

@@ -14,7 +14,7 @@ const navigation = [
 
 const Navigation = () => {
   return (
-    <Layout.Navigation>
+    <Layout.Navigation classes="nav">
       <Layout.Tabs>
         {navigation.map(({ label, url }) => (
           <Layout.Tab linkClass="link" tabClass="tab" url={url}>

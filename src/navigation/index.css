@@ -1,3 +1,7 @@
+.nav {
+  position: sticky;
+}
+
 .link {
   font-size: 14px;
   color: #171717;
